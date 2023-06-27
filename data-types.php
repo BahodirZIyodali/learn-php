@@ -1,5 +1,6 @@
 <?php
 //  php codes
+//  run command php -S localhost:8000
 
 $name='eshmat';
 echo " <h1> $name </h1> "  ;
@@ -23,7 +24,12 @@ $array2 = array(1,3);
 $null=null;
 
 
-   
+
+$array =[1,2,3,3];
+print_r($array); //To inspect or check the structure and values of an array in a human-readable format on the screen  
+
+
+
 
 //  class 
 class Car{
@@ -43,6 +49,7 @@ class Car{
 
 // $object =new Car('blue','adad');
 // echo $object-> getCar();
+
 
 
 
@@ -77,8 +84,6 @@ $apple->intro();
 
 
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -88,11 +93,8 @@ $apple->intro();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  
-
+<body >
 <script>
-
   console.log('1'+1);
   console.log('11'-1);
 </script>
